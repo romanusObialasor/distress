@@ -70,7 +70,7 @@ const Onboarding2 = () => {
               <Mic
                 onClick={() => {
                   onToggle();
-                  if (toggle) {
+                  if (!toggle) {
                     SpeechRecognition.startListening();
                   }
                 }}
