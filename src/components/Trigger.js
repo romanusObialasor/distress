@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { BsChevronLeft } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+import { FaUserAlt } from "react-icons/fa";
 
 const Trigger = () => {
   return (
@@ -14,7 +15,17 @@ const Trigger = () => {
             </Icon>
           </NavLink>
           <Title>Trigger when</Title>
+          <Avatar>
+            <FaUserAlt fontSize="33px" color="#9999" />
+          </Avatar>
         </Top>
+        <Second>
+          <SecondTxt>
+            "In show dull give need so held. One order all scale sense her gay
+            style wrote. whose those stand she end."
+          </SecondTxt>
+          <SecondImage src="/image/8.jpg" />
+        </Second>
         <Rest>
           <Ol>
             <Li>
@@ -86,6 +97,32 @@ const Li = styled.li`
   margin-bottom: 20px;
 `;
 
-// const Container = styled.div``;
+const Avatar = styled.div`
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 3px solid #1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Second = styled.div`
+  text-align: center;
+  margin-top: 20px;
+`;
+
+const SecondTxt = styled.div`
+  padding: 0 10px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+`;
+
+const SecondImage = styled.img`
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 15px;
+`;
 
 // const Container = styled.div``;
