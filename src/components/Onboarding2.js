@@ -34,8 +34,6 @@ const Onboarding2 = () => {
     return <span>Browser does not support speech recognition</span>;
   }
 
-  console.log("this is transcript", transcript);
-
   return (
     <Container>
       <Image src="/image/girl.png" />

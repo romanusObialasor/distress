@@ -58,10 +58,7 @@ const MainPage = () => {
     await axios
       .get(url)
       .then((res) => {
-        const value = res.data.data;
-        value.forEach((e) => {
-          setData(e);
-        });
+        setData(res.data.data);
       })
       .catch((err) => {
         console.log(err.message);
