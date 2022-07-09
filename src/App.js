@@ -8,8 +8,9 @@ import Onboarding3 from "./components/Onboarding3";
 import Signin from "./components/Signin";
 import Signup from "./components/Signup";
 import Trigger from "./components/Trigger";
-import Precautions from "./Precautions";
+import Precautions from "./components/Precautions";
 import ScrollToTop from "./ScrollToTop";
+import PrecautionBlog from "./components/PrecautionBlog";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/mainpage" element={<MainPage />} />
         <Route path="/trigger" element={<Trigger />} />
         <Route path="/precautions" element={<Precautions />} />
+        <Route path="/precautionblog" element={<PrecautionBlog />} />
       </Routes>
     </Router>
   );
