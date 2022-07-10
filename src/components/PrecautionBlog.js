@@ -18,16 +18,13 @@ const PrecautionBlog = () => {
           </Avatar>
         </Top>
         <ImgHolder>
-          <Img src="/image/7.jpg" alt="" />
+          <Img src="/image/violence.jpeg" alt="" />
         </ImgHolder>
         <TexHoder>
           <Date>
-            October 4 2022 <span />
-            5min Read
+            September 4, 2022 <span />3 min read
           </Date>
-          <Contet>
-            Random Text Generator is a web application which Provides true which
-          </Contet>
+          <Contet>Avoiding violence by all means</Contet>
           <SmallText>
             In show dull give need so held. One order all scale sense her gay
             style wrote. Incommode our not one ourselves residence. Shall there

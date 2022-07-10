@@ -44,8 +44,8 @@ const Onboarding2 = () => {
             Set your <span>trigger</span>
           </Head>
           <Text>
-            On no twenty spring of in esteem spirit likely estate. Continue new
-            you declared differed
+            this is the word you need to say to send a distress signal to your
+            registered contacts
           </Text>
         </TextHolder>
         <SpeechHolder>

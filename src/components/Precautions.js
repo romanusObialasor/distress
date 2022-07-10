@@ -48,10 +48,10 @@ const Precautions = () => {
           <Image>
             <Picture>
               <Write>
-                <Up>What Is Random Text Generator</Up>
+                <Up>Make your voice heard</Up>
                 <Down>
-                  How does it work? first we took
-                  <br /> many books available on project
+                  Never be silient whenever human beings
+                  <br /> endure suffering and humiliation
                 </Down>
               </Write>
             </Picture>
@@ -62,7 +62,7 @@ const Precautions = () => {
           <Content to={`/precautionblog`}>
             <Img src="/image/violence.jpeg" />
             <Info>
-              <Article>the algorithm takes care</Article>
+              <Article>Avoiding violence by all means</Article>
               <Topic>
                 <One>September 4,</One>
                 <Two>
@@ -76,7 +76,7 @@ const Precautions = () => {
           <Content to={`/precautionblog`}>
             <Img src="/image/8.jpg" />
             <Info>
-              <Article>Surprise steepest recurred</Article>
+              <Article>Avoidign walking at night</Article>
               <Topic>
                 <One>Octorber 4,</One>
                 <Two>
@@ -214,14 +214,14 @@ const Picture = styled.div`
   align-items: flex-start;
   justify-content: flex-end;
   border-radius: 6px;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
 `;
 const Article = styled.div`
   font-size: 16px;
   font-weight: 500;
 `;
 const Image = styled.div`
-  background-image: url("/image/safety.jpeg");
+  background-image: url("/image/safety.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
