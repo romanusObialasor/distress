@@ -113,6 +113,7 @@ const MainPage = () => {
     return <span>Browser does not support speech recognition</span>;
   }
 
+  console.log("this is it", transcript)
   return (
     <Container id="container">
       <Wrapper>
